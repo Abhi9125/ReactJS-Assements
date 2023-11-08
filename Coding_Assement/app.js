@@ -1,17 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const header = React.createElement(
-  "div",
-  { className: "title" },
-
-  [
-    React.createElement("h1", { id: "heading1" }, "I am heading 1"),
-    React.createElement("h2", { id: "heading2" }, "I am heading 2"),
-    React.createElement("h3", { id: "heading3" }, "I am heading 3"),
-  ]
+const TaskTwo = (
+  <div className="title">
+    <h1>I'm heading 1.</h1>
+    <h2>I'm heading 2</h2>
+    <h3>I'm Heading 3</h3>
+  </div>
 );
-
+// const TaskTwo = <h1>I'm Heading 1.</h1>;
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
-root.render(header);
+root.render(TaskTwo);
