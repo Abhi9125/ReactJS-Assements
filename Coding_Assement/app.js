@@ -1,12 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//Task -- Composition of Component (Add a component inside another)
-const CompComposition = () => <h1>Component Composition</h1>;
+//Task -- {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>}
+const CompComposition = () => {
+  return (
+    <div>
+      {TitleCompotent()}
+      <TitleCompotent></TitleCompotent>
+      <TitleCompotent />
+    </div>
+  );
+};
 
-const TaskThree = () => (
+const TitleCompotent = () => (
   <div className="title">
-    <CompComposition />
     <h1 className="Heading1">I'm heading 1.</h1>
     <h2 className="Heading2">I'm heading 2</h2>
     <h3 className="Heading3">I'm Heading 3</h3>
@@ -16,4 +23,4 @@ const TaskThree = () => (
 // const TaskTwo = <h1>I'm Heading 1.</h1>;
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
-root.render(<TaskThree />);
+root.render(<CompComposition />);
