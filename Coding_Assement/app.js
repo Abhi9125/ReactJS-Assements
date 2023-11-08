@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const TaskTwo = (
+const TaskThree = () => (
   <div className="title">
     <h1>I'm heading 1.</h1>
     <h2>I'm heading 2</h2>
@@ -11,4 +11,4 @@ const TaskTwo = (
 // const TaskTwo = <h1>I'm Heading 1.</h1>;
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
-root.render(TaskTwo);
+root.render(<TaskThree />);
