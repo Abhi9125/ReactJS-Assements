@@ -1,26 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//Task -- {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>}
-const CompComposition = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faJetFighterUp } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+//Task 2 -- Create a Header Component from scratch using Functional Component with JSX
+const Header = () => {
   return (
-    <div>
-      {TitleCompotent()}
-      <TitleCompotent></TitleCompotent>
-      <TitleCompotent />
-    </div>
+    <header id="header">
+      <div className="icon">
+        <FontAwesomeIcon icon={faJetFighterUp} />
+      </div>
+      <div className="input-box">
+        <h1>Create a Header Component with logo and user icon</h1>
+        <input type="text" placeholder="Search box" className="input"></input>
+      </div>
+      <div className="user">
+        <FontAwesomeIcon icon={faUser} />
+      </div>
+    </header>
   );
 };
-
-const TitleCompotent = () => (
-  <div className="title">
-    <h1 className="Heading1">I'm heading 1.</h1>
-    <h2 className="Heading2">I'm heading 2</h2>
-    <h3 className="Heading3">I'm Heading 3</h3>
-  </div>
-);
-
 // const TaskTwo = <h1>I'm Heading 1.</h1>;
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
-root.render(<CompComposition />);
+root.render(<Header />);
