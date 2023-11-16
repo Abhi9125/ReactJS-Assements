@@ -241,6 +241,19 @@ A: The /dist folder contains the minimized version of the source code. The code 
 
 A: Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
 
+### Q: ^ - caret and ~ - tilde
+
+A: Tilde (~) notation: It is used to match the most recent patch version. Tilde ~ notation freezes the major version and minor version. As we know patch updates are bug fixes that’s why we can say ~ notation allows us to automatically accept bug fixes.
+Caret (^) notation: It is used for automatically updating the minor updates along with patch updates.
+More read - https://www.geeksforgeeks.org/difference-between-tilde-and-caret-in-package-json/
+
+### Q: Read about Script types in html (MDN Docs)
+
+A: https://dev.to/manikbajaj/in-depth-look-into-the-javascript-script-tag-attributes-1ei3
+
+### Q: Read about dif bundlers: vite, webpack, parcel
+A: 
+
 ![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0001.jpg>)
 ![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0002.jpg>)
 ![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0003.jpg>)
