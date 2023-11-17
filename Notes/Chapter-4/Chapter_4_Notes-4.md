@@ -76,7 +76,7 @@ const sample = <h2>Greetings</h2>;
 
 A: ES6 is not mandatory for React but is highly recommendable. The latest projects created on React rely a lot on ES6. React uses ES6, and you should be familiar with some of the new features like: Classes, Arrow Functions, Variables(let, const). ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.
 
-### Q: {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX.
+### Q: `{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX`.
 
 A: The Difference is stated below:
 
@@ -214,6 +214,9 @@ console.log(joinedMessage);
 ### What is optional chaining.
 
 A: `Read artical` - https://www.javascripttutorial.net/es-next/javascript-optional-chaining-operator/
+
+## Digital Notes
+
 ![Alt text](0001.jpg)
 ![Alt text](0002.jpg)
 ![Alt text](0003.jpg)
