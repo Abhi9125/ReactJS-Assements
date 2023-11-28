@@ -59,7 +59,9 @@
 
 ### Q: What is the difference between `Named export, Default export, and \* as export?`
 
-A: ES6 provides us to import & export a module and use it in other files. ES6 provides two ways to export a module from a file: named export and default export. In Named export, one can have multiple named exports per file. Then import the specific exports they want surrounded in {} braces. The name of imported module has to be the same as the name of the exported module. In Named export, the component is exported from MyComponent.js file like:
+A: ES6 provides us to import & export a module and use it in other files. ES6 provides two ways to export a module from a file: named export and default export.
+
+In `Named export`, one can have multiple named exports per file. Then import the specific exports they want surrounded in {} braces. The name of imported module has to be the same as the name of the exported module. In Named export, the component is exported from MyComponent.js file like:
 
 ```JS
 export const MyComponent = () => {}
@@ -94,7 +96,7 @@ and the component is imported from MyComponent.js file like: here we must omit {
 import MyComponent from "./MyComponent";
 ```
 
-In `* as export`, it is used to import the whole module as a component and access the components inside the module. In `* as export`, the component is exported from MyComponent.js file like:
+In`* as export` is a shorthand syntax for importing all exported values from a module. This can be useful when you want to import all the exports at once, without specifying each one individually.
 
 ```JS
 export const MyComponent = () => {}
@@ -118,7 +120,7 @@ Now we can use them in JSX as:
 <MainComponents.MyComponent3 />
 ```
 
-We can use `Named expor`t and `Default export` together. So you should export like:
+We can use `Named export` and `Default export` together. So you should export like:
 
 ```JS
 export const MyComponent2 = () => {}
@@ -163,6 +165,8 @@ A: In React version 16.8, React introduced a new pattern called Hooks. React Hoo
 - useLayoutEffect: It fires at the end of all DOM mutations. It's best to use useEffect as much as possible over this one as the useLayoutEffect fires synchronously.
 - useDebugValue: Helps to display a label in React DevTools for custom hooks.
 
+`Read more` --> https://react.dev/reference/react/hooks
+
 ### Q: Why do we need useState Hook?
 
 A: `useState hook` is used to maintain the state in our React application. It keeps track of the state changes so basically useState has the ability to encapsulate local state in a functional component. The useState hook is a special function that takes the `initial state` as an `argument` and `returns an array of two entries`. UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
@@ -187,6 +191,9 @@ const Example = (props) => {
 return <div />;
 }
 ```
+
+`Read More` --> https://react.dev/reference/react/useState
+`Read More` --> https://www.reddit.com/r/reactjs/comments/y7ah2e/why_do_we_use_const_for_usestate_instead_of_let/
 
 ## Digital Notes
 

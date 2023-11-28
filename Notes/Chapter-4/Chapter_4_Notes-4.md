@@ -42,6 +42,7 @@
 - What is Config Driven UI?
 - Array.join("") method.
 - Optional Chaining (?.)
+- What is props and to use it.
 
 ## Coding Assignment:
 
@@ -151,6 +152,8 @@ A: React Fiber is a concept of ReactJS that is used to render a system faster, s
 - Reuse previously completed work and even abort it if not needed
 - Split work into chunks and prioritize tasks based on importance.
 
+`Read More` -- https://github.com/acdlite/react-fiber-architecture
+
 ### Q: Why do we need keys in React?
 
 A: A key is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists. Keys should be given to the elements within the array to give the elements a stable identity.
@@ -214,6 +217,20 @@ console.log(joinedMessage);
 ### What is optional chaining.
 
 A: `Read artical` - https://www.javascripttutorial.net/es-next/javascript-optional-chaining-operator/
+
+### What is props and to use it.
+
+A: `Read Artical` - https://react.dev/learn/passing-props-to-a-component
+
+**Recap**
+
+- To pass props, add them to the JSX, just like you would with HTML attributes.
+- To read props, use the function Avatar({ person, size }) destructuring syntax.
+- You can specify a default value like size = 100, which is used for missing and undefined props.
+- You can forward all props with <Avatar {...props} /> JSX spread syntax, but don’t overuse it!
+- Nested JSX like <Card><Avatar /></Card> will appear as Card component’s children prop.
+- Props are read-only snapshots in time: every render receives a new version of props.
+- You can’t change props. When you need interactivity, you’ll need to set state.
 
 ## Digital Notes
 
