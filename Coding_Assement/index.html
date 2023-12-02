@@ -3,12 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Assement</title>
+    <title>Employee Salary Details</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-
-    <script type="module" src="./app.js" defer></script>
+    <div class="container">
+      <h1>Employee Information</h1>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Department</th>
+          <th class="salaryColumn">Salary ($)</th>
+        </tr>
+        <tr>
+          <td>101</td>
+          <td>Asim Mishra</td>
+          <td>Engineering</td>
+          <td class="salaryColumn">75000</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Aryan sinha</td>
+          <td>Marketing</td>
+          <td class="salaryColumn">45000</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Anmol singh</td>
+          <td>Technical support</td>
+          <td class="salaryColumn">20000</td>
+          "
+        </tr>
+        <tr>
+          <td>104</td>
+          <td>Utkarsh Maheshwari</td>
+          <td>front-end developer</td>
+          <td class="salaryColumn">30000</td>
+        </tr>
+      </table>
+      <button id="toggleButton">Toggle Salary</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
