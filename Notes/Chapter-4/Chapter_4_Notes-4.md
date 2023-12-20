@@ -153,6 +153,7 @@ A: React Fiber is a concept of ReactJS that is used to render a system faster, s
 - Split work into chunks and prioritize tasks based on importance.
 
 `Read More` -- https://github.com/acdlite/react-fiber-architecture
+`Read More` -- https://blog.logrocket.com/deep-dive-react-fiber/
 
 ### Q: Why do we need keys in React?
 

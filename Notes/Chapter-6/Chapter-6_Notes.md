@@ -42,12 +42,14 @@
 - Why do we need a useEffect Hook?
 - What is Optional Chaining?
 - What is Shimmer UI?
-- What is the difference between JS expression and JS statement?
+- What is the difference between JS expression and JS statement? -->
 - What is Conditional Rendering? explain with a code example.
-- What is CORS?
+- What is CORS? -->
 - What is async and await?
 - What is the use of const json = await data.json(); in getRestaurants()?
-- includes() methods.
+- includes() methods. [Read](https://www.programiz.com/javascript/library/array/includes)
+- What is the need of useState and uses.(Self)
+- Different listner in react.(Self)
 
 ## Coding Assignment:
 
@@ -65,13 +67,17 @@
 
 [Akshay Saini code Link](https://bitbucket.org/namastedev/namaste-react-live/src/master/)
 
-### Q: What is Microservice?
+### Q: What is the difference between Monolith and Microservice?
 
-A: Microservice - also known as the microservice architecture - is an architectural and organizational approach to software development where software is composed of small independent services like database, server or a UI of the application, that communicate over well-defined APIs. These services are owned by small, self-contained teams. Microservices architectures make applications easier to scale and faster to develop, enabling innovation and accelerating time-to-market for new features. means we are dividing software into small, well-defined modules enables teams to use functions for multiple purposes.
+A. -- Monolith Architecture:
 
-- Benefits of Microservices:
-- Flexible Scaling
-- Easy Deployment
-- Technological Freedom
-- Reusable Code
-- Resilience
+With monolithic architectures, all processes are tightly coupled and run as a single service. This means that if one process of the application experiences a spike in demand, the entire architecture must be scaled. Adding or improving a monolithic application’s features becomes more complex as the code base grows. This complexity limits experimentation and makes it difficult to implement new ideas. Monolithic architectures add risk for application availability because many dependent and tightly coupled processes increase the impact of a single process failure.
+
+With a microservices architecture, an application is built as independent components that run each application process as a service. These services communicate via a well-defined interface using lightweight APIs. Services are built for business capabilities and each service performs a single function. Because they are independently run, each service can be updated, deployed, and scaled to meet demand for specific functions of an application. Monolith and Microservice
+
+### Q: Why do we need a useEffect Hook?
+
+### Notes
+
+[Digital_Notes](https://drive.google.com/file/d/1xVeUmx8Be1YNTRkmNhiZEKPJ1NgE3GPt/view)<br>
+[Hand_Nots](https://drive.google.com/file/d/1aJGVC3fZt_sWbJ_VXy1-RDFrK2gjC6vQ/view)
