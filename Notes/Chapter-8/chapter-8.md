@@ -45,5 +45,5 @@
 
 ### Notes
 
-[Digital_Notes](https://drive.google.com/file/d/1feiOyAHjkXmTwaOOL0GsTTGK6sXChD2d/view)<br>
-hand Notes
+- [Digital_Notes](https://drive.google.com/file/d/1feiOyAHjkXmTwaOOL0GsTTGK6sXChD2d/view)<br>
+- [Hand_Written_Notes](https://drive.google.com/file/d/1lBRrEq8lNNF89pti6QpfAL1PTr_-y4rJ/view)

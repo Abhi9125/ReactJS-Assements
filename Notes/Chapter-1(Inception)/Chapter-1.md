@@ -132,10 +132,7 @@ Unless you're supporting ancient legacy systems, always add type="module" to all
 
 As the name suggests, it allows you to import modules, which makes it easier to organize your code. Enable strict mode by default. This makes your code run faster, and reports more runtime errors instead of silently ignoring them. Execute your code only after the DOM has initialized, which makes DOM manipulation easier. Thanks to this, you won't need to listen to load/readystatechange/DOMContentLoaded events. Prevent top level variables from implicitly polluting the global namespace. Allow you to use top-level await in supported engines. Load and parse your code asynchronously, which improves load performance.
 
-## Digital Notes
+## Notes
 
-![Alt text](<Chapter 01 - Inception Digital Notes_page-0001.jpg>)
-![Alt text](<Chapter 01 - Inception Digital Notes_page-0002.jpg>)
-![Alt text](<Chapter 01 - Inception Digital Notes_page-0003.jpg>)
-
-## Hand Writen Notes Link
+- [Digital_Notes_By Arpan](https://drive.google.com/file/d/1Pilz17_vJsfJOcq_mOp403ZAhi9rSts8/view)
+- [Hand_Notes](https://drive.google.com/file/d/1bZhyn7i-jQQnAwTa6G2U5AT1oaN5P8k6/view)

@@ -252,11 +252,10 @@ More read - https://www.geeksforgeeks.org/difference-between-tilde-and-caret-in-
 A: https://dev.to/manikbajaj/in-depth-look-into-the-javascript-script-tag-attributes-1ei3
 
 ### Q: Read about dif bundlers: vite, webpack, parcel
-A: 
 
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0001.jpg>)
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0002.jpg>)
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0003.jpg>)
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0004.jpg>)
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0005.jpg>)
-![Alt text](<Chapter 02 - Igniting our App  Digital Notes_page-0006.jpg>)
+A:
+
+## Notes
+
+- [Digital_Notes_By_Arpan](https://drive.google.com/file/d/1iJ3IOkTpyDOqgDRsJM_EDLu78zURNw2I/view)
+- [Hand_Written_Notes](https://drive.google.com/file/d/1dic_7VgJZDosGLPOGPn2-vvTvpYZlLy7/view)

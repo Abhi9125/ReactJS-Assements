@@ -79,5 +79,5 @@ With a microservices architecture, an application is built as independent compon
 
 ### Notes
 
-[Digital_Notes](https://drive.google.com/file/d/1xVeUmx8Be1YNTRkmNhiZEKPJ1NgE3GPt/view)<br>
-[Hand_Nots](https://drive.google.com/file/d/1aJGVC3fZt_sWbJ_VXy1-RDFrK2gjC6vQ/view)
+- [Digital_Notes](https://drive.google.com/file/d/1xVeUmx8Be1YNTRkmNhiZEKPJ1NgE3GPt/view)<br>
+- [Hand_Nots](https://drive.google.com/file/d/1aJGVC3fZt_sWbJ_VXy1-RDFrK2gjC6vQ/view)

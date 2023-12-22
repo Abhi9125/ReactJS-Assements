@@ -195,12 +195,7 @@ return <div />;
 `Read More` --> https://react.dev/reference/react/useState
 `Read More` --> https://www.reddit.com/r/reactjs/comments/y7ah2e/why_do_we_use_const_for_usestate_instead_of_let/
 
-## Digital Notes
+## Notes
 
-![Alt text](0001.jpg)
-![Alt text](0002.jpg)
-![Alt text](0003.jpg)
-![Alt text](0004.jpg)
-![Alt text](0005.jpg)
-![Alt text](0006.jpg)
-![Alt text](0007.jpg)
+- [Digital_Notes](https://drive.google.com/file/d/1aGm64Kw88aDpPauOTe1XG6AvNKXinw1a/view)
+- [Hand_Written_Notes](https://drive.google.com/file/d/1NH10BGnrwtorvsNXqW9F0FKjdhxJa8V1/view)

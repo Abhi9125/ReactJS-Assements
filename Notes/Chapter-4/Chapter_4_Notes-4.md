@@ -233,11 +233,7 @@ A: `Read Artical` - https://react.dev/learn/passing-props-to-a-component
 - Props are read-only snapshots in time: every render receives a new version of props.
 - You can’t change props. When you need interactivity, you’ll need to set state.
 
-## Digital Notes
+## Notes
 
-![Alt text](0001.jpg)
-![Alt text](0002.jpg)
-![Alt text](0003.jpg)
-![Alt text](0004.jpg)
-![Alt text](0005.jpg)
-![Alt text](0006.jpg)
+- [Digital_Notes_by_arpan](https://drive.google.com/file/d/1FBfWO06X6TKtYn2qSQEEY4y5Mp8jKlyA/view)<br>
+- [Hand_Written_Notes](https://drive.google.com/file/d/13ZVdWZHfjB9-7quNJ7hc_giZ6nT9ZVix/view)

@@ -127,11 +127,8 @@ A: The Difference is stated below:
 - `{TitleComponent}`: This value describes the TitleComponent as a javascript expression or a variable. The {} can embed a javascript expression or a variable inside it.
 - `<TitleComponent/>` : This value represents a Component that is basically returning Some JSX value. In simple terms TitleComponent a function that is returning a JSX value. A component is written inside the {< />} expression.
 - `<TitleComponent></TitleComponent> : <TitleComponent /> and <TitleComponent></TitleComponent>` are equivalent only when < TitleComponent /> has no child components. The opening and closing tags are created to include the child components.
-  ![Alt text](0001.jpg)
-  ![Alt text](0002.jpg)
-  ![Alt text](0003.jpg)
-  ![Alt text](0004.jpg)
-  ![Alt text](0005.jpg)
-  ![Alt text](0006.jpg)
-  ![Alt text](0007.jpg)
-  ![Alt text](0008.jpg)
+
+## Notes
+
+- [Digital_Notes_By_Arpan](https://drive.google.com/file/d/1xG4O3DmjWDMSo-l1d0QZZeZ6pTBmuvX4/view)
+- [HandWritten_Notes](https://drive.google.com/file/d/1Wu_FdhPVTGkIB_E1K7EM-K5afjVLnRS7/view)

@@ -213,5 +213,5 @@ A. The useParams hook is a React hook that allows you to access the dynamic para
 
 ### Notes
 
-[Digital_notes](https://drive.google.com/file/d/1UEUVCrk75rAllR4bCIZo1PHSenA9wX_-/view)<br>
-[Hand_Notes](https://drive.google.com/file/d/1n_8C5b7zHIWrXb-39MibXX74RyNoztJm/view)
+- [Digital_notes](https://drive.google.com/file/d/1UEUVCrk75rAllR4bCIZo1PHSenA9wX_-/view)<br>
+- [Hand_Notes](https://drive.google.com/file/d/1n_8C5b7zHIWrXb-39MibXX74RyNoztJm/view)
