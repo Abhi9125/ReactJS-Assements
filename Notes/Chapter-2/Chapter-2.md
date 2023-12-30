@@ -67,7 +67,7 @@
 - Add scripts for “start” and “build” with parcel commands
 - Add .gitignore file
 - Add browserlists
-- uild a production version of your code using parcel build
+- build a production version of your code using parcel build
 
 ### Q: What is NPM?
 
@@ -243,8 +243,10 @@ A: Browserslist is a tool that allows specifying which browsers should be suppor
 
 ### Q: ^ - caret and ~ - tilde
 
-A: Tilde (~) notation: It is used to match the most recent patch version. Tilde ~ notation freezes the major version and minor version. As we know patch updates are bug fixes that’s why we can say ~ notation allows us to automatically accept bug fixes.
-Caret (^) notation: It is used for automatically updating the minor updates along with patch updates.
+A: The caret (^) and tilde (~) symbols are used to indicate the range of versions that are acceptable for a dependency in a package.json file. They follow the semantic versioning (SemVer) convention, which consists of three numbers: major, minor, and patch.
+The caret (^) means that the dependency can be updated to any version that has the same major version. For example, ^1.2.3 allows updates from 1.2.3 to <2.0.0, but not to 2.0.0 or higher.
+The tilde (~) means that the dependency can be updated to any version that has the same major and minor versions. For example, ~1.2.3 allows updates from 1.2.3 to <1.3.0, but not to 1.3.0 or higher.
+The caret (^) is more flexible than the tilde (~), as it allows more updates that are compatible with the current version. However, the tilde (~) is more conservative, as it only allows bug fixes that are unlikely to break the existing functionality.
 More read - https://www.geeksforgeeks.org/difference-between-tilde-and-caret-in-package-json/
 
 ### Q: Read about Script types in html (MDN Docs)
