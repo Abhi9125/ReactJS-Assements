@@ -41,6 +41,7 @@
 - What is the importance of config.js file?
 - What are React Hooks?
 - Why do we need useState Hook?
+- Can I use a default export along with named export?” – Home Work
 
 ## Coding Assignment:
 
